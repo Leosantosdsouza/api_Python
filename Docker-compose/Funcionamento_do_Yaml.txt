@@ -1,0 +1,9 @@
+C:\Users\leo_s\PycharmProjects\Desafio\Api_Databases\Docker-compose
+
+docker-compose up
+
+#Para parar o serviço, precionar Ctrl+C
+
+#Ver os indices de cada Database: http://localhost:9200/_cat/indices?v
+#Ver o que tem dentro de cada indice no database: http://localhost:9200/<"Nome do indice">/_search?pretty=true
+		Exemplo ->					  http://localhost:9200/<estabelecimento>/_search?pretty=true
